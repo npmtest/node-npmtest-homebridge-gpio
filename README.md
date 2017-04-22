@@ -1,4 +1,7 @@
-# test coverage for  [homebridge-gpio (v0.0.4)](https://github.com/jamesblanksby/homebridge-gpio#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-homebridge-gpio.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-homebridge-gpio) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-homebridge-gpio.svg)](https://travis-ci.org/npmtest/node-npmtest-homebridge-gpio)
+# npmtest-homebridge-gpio
+
+#### basic test coverage for  homebridge-gpio (v0.0.4)  [![npm package](https://img.shields.io/npm/v/npmtest-homebridge-gpio.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-homebridge-gpio) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-homebridge-gpio.svg)](https://travis-ci.org/npmtest/node-npmtest-homebridge-gpio)
+
 #### Raspberry Pi GPIO plugin for Homebridge: https://github.com/nfarina/homebridge
 
 [![NPM](https://nodei.co/npm/homebridge-gpio.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/homebridge-gpio)
@@ -32,42 +35,25 @@
 ```json
 
 {
-    "bugs": {
-        "url": "https://github.com/jamesblanksby/homebridge-gpio/issues"
-    },
-    "dependencies": {
-        "pi-gpio": "^0.0.8"
-    },
+    "name": "homebridge-gpio",
+    "version": "0.0.4",
     "description": "Raspberry Pi GPIO plugin for Homebridge: https://github.com/nfarina/homebridge",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "eb25ddb41d9e6be87dd6b7224180f102ecccab2e",
-        "tarball": "https://registry.npmjs.org/homebridge-gpio/-/homebridge-gpio-0.0.4.tgz"
-    },
-    "engines": {
-        "homebridge": ">=0.2.0",
-        "node": ">=0.12.0"
-    },
-    "gitHead": "734af44b0c0b4ed11457f97d547be4c6d58aa261",
-    "homepage": "https://github.com/jamesblanksby/homebridge-gpio#readme",
+    "license": "MIT",
     "keywords": [
         "homebridge-plugin"
     ],
-    "license": "MIT",
-    "maintainers": [
-        {
-            "name": "jamesblanksby"
-        }
-    ],
-    "name": "homebridge-gpio",
-    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/jamesblanksby/homebridge-gpio.git"
     },
-    "scripts": {},
-    "version": "0.0.4"
+    "engines": {
+        "node": ">=0.12.0",
+        "homebridge": ">=0.2.0"
+    },
+    "dependencies": {
+        "pi-gpio": "^0.0.8"
+    },
+    "bin": {}
 }
 ```
 
